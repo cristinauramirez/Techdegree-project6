@@ -15,3 +15,16 @@ p {
   line-height: 2;
   cursor: default;
 }
+
+@media (min-width: 768px) {
+
+  .wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  p {
+    width: 80%;
+  }
+  
+}
