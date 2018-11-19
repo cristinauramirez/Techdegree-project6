@@ -16,6 +16,10 @@ p {
   cursor: default;
 }
 
+.mejs__controls:not([style*= 'display: none']) {
+  background-color: rgba(255,192,203, .7);
+}
+
 @media (min-width: 768px) {
 
   .wrapper {
@@ -26,5 +30,5 @@ p {
   p {
     width: 80%;
   }
-  
+
 }
