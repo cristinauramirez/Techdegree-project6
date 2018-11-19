@@ -14,3 +14,10 @@ video.addEventListener('timeupdate', () => {
     }
   }
 });
+
+for (i = 0; i < captions.length; i += 1){
+  captions[i].addEventListener('click', (e) => {
+    video.currentTime = e.target.getAttribute('data-start');
+    video.setCurrentTime(currentTime);
+  });
+}
